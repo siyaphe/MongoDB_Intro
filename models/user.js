@@ -1,5 +1,4 @@
 const mongoose = required("mongoose")
-
 const userSchema = new mongoose.Schema({
   title: String,
   body: String

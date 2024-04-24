@@ -7,5 +7,4 @@ const dessertSchema = new mongoose.Schema({
 
 const Dessert = mongoose.model("Dessert", dessertSchema)
 
-
 module.exports = Dessert
