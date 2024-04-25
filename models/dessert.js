@@ -1,4 +1,4 @@
-const mongoose = required("mongoose")
+const mongoose = require("mongoose")
 
 const dessertSchema = new mongoose.Schema({
   title: String,
